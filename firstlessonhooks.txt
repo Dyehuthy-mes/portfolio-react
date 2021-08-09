@@ -1,9 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Page from "../../components/Page/Page"
 import Card from '../../components/Card/Card'
 import "./Home.css"
 
 export default function Home() {
+    const [stylehook,setStyleHook] = useState("clase1")
+    const toggle = ()=> {
+        if(stylehook==="clase1"){
+            setStyleHook("clase2");
+        }else{
+            setStyleHook("clase1")
+        }
+    }
     return (
         <div>
         <hr/>
@@ -14,8 +22,22 @@ export default function Home() {
             name="Shinji" 
             gender="male"
             />
+            <h1 className={stylehook}>Prueba hooks</h1>
+            <button onClick={()=>toggle()}>Toggle</button>
         </Page>   
         </div>
         
     )
 }
+
+<style>
+.clase1{
+    color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clase2{
+    color: rgb(255, 43, 78);
+    font-family: 'Courier New', Courier, monospace;
+}
+</style>
