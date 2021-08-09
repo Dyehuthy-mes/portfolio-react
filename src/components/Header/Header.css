@@ -1,0 +1,19 @@
+.header{
+    background-color: #FFCCC9;
+    height:50px;
+    cursor:default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-family: monospace;
+    font-size: 30px;
+    background: #FFFFFF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}

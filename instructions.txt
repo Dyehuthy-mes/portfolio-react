@@ -1,0 +1,25 @@
+c
+estructurar proyecto react.
+
+
+en la carpeta src solo dejar componentes principales (app e index);
+
+componentes --> carpeta general
+una carpeta dentor  para cada componente
+
+ejemplo:
+
+Navbar.css
+Navbar.js
+configurar jsx para etiquetas sugeridas en html...
+escribir --> rfce en .js
+
+reemplazar div por fragment puede ser conveniente 
+
+import {React, Fragment} from 'react' en el js del componente que se este usando
+
+install react react-dom -S
+install webpack webpack-cli webpack-dev-server -D
+en la App.js 
+
+import{BrowserRouter as Router,Switch,Route,link} from "react-router-dom";

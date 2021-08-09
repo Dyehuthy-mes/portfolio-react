@@ -1,0 +1,47 @@
+
+.card{
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0.5px;
+  width: 640px;
+  height:350px;
+  margin: 30px -1px ;
+  padding: auto;
+  background: linear-gradient(35deg,#CC66CC,#FFFFCC);
+  overflow: hidden;
+  filter: saturate(1);
+
+}
+
+.card img{       
+    height: 100px;
+    width:110px;
+    margin-left:4%;
+    margin-top: 1%;
+    border-style: solid ;
+    filter: blur(2px);
+    opacity: 50%;
+    transition: 3s;
+
+  }
+.card img:hover{
+  filter: blur(1px);
+  opacity: 100%;
+}
+.datos{
+  width: 50%;
+  margin: auto;
+  margin-left: 25%;
+  margin-top: -17%;
+  padding-bottom: 20px;
+  cursor:default;
+}
+
+ p{
+    width: 500px;
+    font-size:20px;
+    font-variant:small-caps;
+    line-height:8px;  
+    text-shadow: -1px -2px 0 #E5E7E9;
+  }
+

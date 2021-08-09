@@ -1,0 +1,27 @@
+.navbar{
+    width: 100%;
+    height:1px;
+    background-color: #ffffff;
+    gap: 2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   border-radius: 30px;
+   color: #000000;
+   cursor: pointer;
+   background-color: rgb(255, 180, 249);
+   border-width: 1px;
+   transition: 1s;
+}
+
+button:hover{
+    background-color: #ffd4ff;
+}
+
