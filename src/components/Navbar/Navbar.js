@@ -5,11 +5,8 @@ import { NavLink } from 'react-router-dom'
 function Navbar() {
     return (
         <div className="navbar">
-            <NavLink to = "/about-me">
-                <button>ABOUT ME</button> 
-            </NavLink>
             <NavLink to = "/">
-                <button>SECOND</button> 
+                <button>ABOUT ME</button> 
             </NavLink>            
         </div>
     )

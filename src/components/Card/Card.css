@@ -15,19 +15,12 @@
 
 .card img{       
     height: 100px;
-    width:110px;
+    width:100px;
     margin-left:4%;
     margin-top: 1%;
     border-style: solid ;
-    filter: blur(2px);
-    opacity: 50%;
-    transition: 3s;
-
+    filter: hue-rotate(-40deg);
   }
-.card img:hover{
-  filter: blur(1px);
-  opacity: 100%;
-}
 .datos{
   width: 50%;
   margin: auto;
