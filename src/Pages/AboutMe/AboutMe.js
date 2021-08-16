@@ -22,11 +22,3 @@ function AboutMe() {
 }
 
 export default AboutMe
-
-
-/* paraundiaelerror   var result= picture;
-
-picture={
-    height: "100px",
-    width:"110px",
-} */
